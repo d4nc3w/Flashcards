@@ -1,0 +1,14 @@
+spring:
+    banner:
+        location: logo-app
+        charset: UTF-8
+    profiles:
+        active: original
+pl:
+    edu:
+        pja:
+            tpo02:
+                filename: "dictionary.csv"
+
+
+
