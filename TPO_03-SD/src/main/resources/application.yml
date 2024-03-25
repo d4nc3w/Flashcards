@@ -1,0 +1,29 @@
+spring:
+  banner:
+    location: logo-app
+    charset: UTF-8
+  profiles:
+    active: uppercase
+  application:
+    name: TPO_03_2
+  h2:
+    console:
+      path: /my-h2-console
+  datasource:
+    url: jdbc:h2:file:./db/flashcards
+    username: s28113
+    password: pjwstk
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    naming:
+      physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+pl:
+  edu:
+    pja:
+      tpo03:
+        filename: "dictionary.csv"
+
+
+

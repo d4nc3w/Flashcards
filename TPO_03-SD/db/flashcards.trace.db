@@ -1,0 +1,9 @@
+2024-03-21 12:34:19.119072+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENTRY" not found (this database is empty); SQL statement:
+SELECT * FROM ENTRY [42104-224]
+2024-03-21 12:55:14.612166+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENTRY" not found (this database is empty); SQL statement:
+SELECT * FROM ENTRY [42104-224]
+2024-03-21 12:56:04.147293+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ENTRY" not found (this database is empty); SQL statement:
+SELECT * FROM ENTRY [42104-224]
