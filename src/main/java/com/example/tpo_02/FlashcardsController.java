@@ -20,7 +20,7 @@ public class FlashcardsController {
         this.fileServ = fileServ;
     }
 
-    public void displayMenu() {
+        public void displayMenu() {
         System.out.println("1. Add a new word");
         System.out.println("2. Display all words");
         System.out.println("3. Take a test");
